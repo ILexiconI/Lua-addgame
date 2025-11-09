@@ -1,9 +1,9 @@
-local running = true
 local num1, num2, userAns, trueAns, choice
 
-num2 = 1
 print('Exit by answering "exit"')
-while running do
+
+num2 = math.random(1, 10)
+while true do
 	num1 = math.random(1, 10)
 	io.write(num1.." + "..num2.." = ")
 	userAns = io.read()
